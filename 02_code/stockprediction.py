@@ -1,12 +1,13 @@
 # Import
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 
 # Import data
-data = pd.read_csv('01_data/data_stocks.csv')
+data = pd.read_csv('../rawdata/data_stocks.csv')
 
 # Drop date variable
 data = data.drop(['DATE'], 1)
