@@ -100,4 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
+# Custom
 rawdata/
+02_code/__pycache__
+02_code/session
+02_code/venv

@@ -17,3 +17,9 @@ $ source ./venv/bin/activate
 ```shell
 $ deactivate
 ```
+
+## Run
+
+```shell
+$ python3 stockprediction.py
+```
